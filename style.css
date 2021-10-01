@@ -1,0 +1,55 @@
+body{
+    background-color:rgb(197, 221, 241);
+    margin:0%;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    padding-top: 5%;
+}
+h2{
+    border:1px solid black;
+    margin-left: 70%;
+    margin-top: 0%;
+    text-align: center;
+    font-family:cursive;
+    color:rgb(223, 223, 223);
+}
+p{
+    font-family:cursive;
+}
+#meal1{
+    background-color: rgb(250, 44, 44);
+}
+#meal2{
+    background-color: rgb(26, 40, 100);
+}
+#meal3{
+    background-color: rgb(145, 124, 9);
+}
+
+@media(min-width: 992px){
+    .col-lg-4{
+        width:26.5%;
+    }
+}
+@media(min-width:768px) and (max-width: 991px){
+    .col-md-6{
+        width:43.2%;
+    }
+    .col-md-12{
+        width:93%;
+    }
+}
+@media(max-width: 767px){
+    .col-sm-12{
+        width:93%;
+    }
+}
+.box{
+    float:left;
+    border: 3px solid black;
+    margin:3%; 
+    background-color: rgb(194, 144, 98);
+}
