@@ -1,0 +1,21 @@
+li a{
+    text-align: center;
+}
+.heading{
+    font-size: 3em;
+    text-align: center;
+    padding:4%
+}
+h2{
+    text-align: center;
+}
+.box{
+    border:2px solid black;
+    margin:3%;
+    background-color: rgb(179, 177, 177);
+}
+.row{
+    justify-content: center;
+    margin-right: 0% !important;
+    --bs-gutter-x:0 !important;
+}
